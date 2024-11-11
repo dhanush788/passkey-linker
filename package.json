@@ -1,0 +1,24 @@
+{
+  "name": "passkey_linker",
+  "version": "2.0.2",
+  "description": "A package for handling sign-in using Firebase and browser credentials API.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "babel src --out-dir dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cbor-x": "^1.5.9",
+    "firebase": "^10.9.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "@types/firebase": "^3.2.1",
+    "jest": "^27.0.0"
+  }
+}
