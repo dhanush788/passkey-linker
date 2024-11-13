@@ -7,7 +7,7 @@
 Install the package via npm:
 
 ```bash
-npm install webauthn-authentication
+npm install passkey_linker
 ```
 
 # Usage
@@ -15,8 +15,8 @@ npm install webauthn-authentication
 First, import the handleSignIn and handleSignUp functions from the package:
 
 ```bash
-import handleSignIn from 'webauthn-authentication/src/auth/handleSignIn';
-import handleSignUp from 'webauthn-authentication/src/auth/handleSignUp';
+import handleSignIn from 'passkey_linker/src/auth/handleSignIn';
+import handleSignUp from 'passkey_linker/src/auth/handleSignUp';
 ```
 
 handleSignIn
